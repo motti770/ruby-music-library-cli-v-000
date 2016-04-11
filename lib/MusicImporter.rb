@@ -5,7 +5,7 @@ class MusicImporter
   @@all =[]
   def initialize(path)
     @path = path
-    @@all << path
+    @@all << self
 
   end
 
